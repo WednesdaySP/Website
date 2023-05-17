@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creative Image Gallery</title>
+        <link rel="stylesheet" href="img.css">
+    </head>
+    <body>
+        
+        <div class="hero">
+            <h1>JAI</h1>
+            <h1>SHIV</h1>
+            <h1>SHANKAR</h1> 
+            <div class="img-box">
+                <p>Mahadev</p>
+                <img src="adi.webp"  id="icon">
+            </div>
+            
+        </div>
+        <audio id="mysong">
+            <source src="Har-har-shambhu-shiv-mahadeva-hindi-song-ringtone.mp3" type="audio/mp3">
+        </audio>
+        <script>
+            var mysong= document.getElementById("mysong");
+            var icon=document.getElementById("icon");
+
+            icon.onclick=function(){
+                if(mysong.paused){
+                    mysong.play();
+                    icon.src="mahadev.webp";
+                }
+                else{
+                    mysong.pause();
+                    icon.src="adi.webp";
+                }
+            }
+        </script>
+    </body>
+</html>

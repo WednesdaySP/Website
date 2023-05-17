@@ -1,0 +1,19 @@
+{
+    margin:0;
+    padding:0;
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top,rgba(130, 67, 67, 0.5)50%,rgba(121, 38, 38, 0.5)50%),url("t1.jpg");
+    background-position: center;
+    background-size: cover;
+    height:109vh ;
+
+}
+.nevbar
+{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
