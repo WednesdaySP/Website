@@ -36,7 +36,7 @@ This project demonstrates the following features:
 ## Demo  
 Check out the project demo in the video below:  
 
-![Project Demo](https://github.com/WednesdaySP/Website/assets/122176467/c37e0289-7c81-4ad5-b566-4672a792894a)  
+https://github.com/WednesdaySP/Website/assets/122176467/c37e0289-7c81-4ad5-b566-4672a792894a
 
 ---
 
